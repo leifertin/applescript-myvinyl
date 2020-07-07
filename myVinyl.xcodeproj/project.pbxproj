@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXAppleScriptBuildPhase section */
+		257572C4072881A4000BE9CA /* AppleScript */ = {
+			isa = PBXAppleScriptBuildPhase;
+			buildActionMask = 2147483647;
+			contextName = "";
+			files = (
+				257572C5072881A4000BE9CA /* myVinyl.applescript in AppleScript */,
+				40573AF812816571000AE0C4 /* searchWindow.applescript in AppleScript */,
+				4096339B12816D30006F4231 /* hideColumns.applescript in AppleScript */,
+				409633A312816EE0006F4231 /* upgradeDB.applescript in AppleScript */,
+				407E32981282013C00C13375 /* addXMLitem.applescript in AppleScript */,
+				40E14E0E1284DC6F00A03889 /* searchXML.applescript in AppleScript */,
+				40A6ECFB128CEA2A00702217 /* playlist.applescript in AppleScript */,
+				400670AF128D07F7003F524E /* export.applescript in AppleScript */,
+				40038F181295E82D00744B42 /* updateApp.applescript in AppleScript */,
+				405F921E12973FF600530EEC /* backupDB.applescript in AppleScript */,
+				40A334D41298C09200F8AA48 /* commonFunctions.applescript in AppleScript */,
+				40BDCACF12A4A23C004F4175 /* register.applescript in AppleScript */,
+			);
+			isSharedContext = 0;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXAppleScriptBuildPhase section */
+
+/* Begin PBXBuildFile section */
+		257572C5072881A4000BE9CA /* myVinyl.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = DA206CF3015C4E8B03C91932 /* myVinyl.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		257572C7072881A4000BE9CA /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		257572C8072881A4000BE9CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		257572CA072881A4000BE9CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		257572CC072881A4000BE9CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		257572CD072881A4000BE9CA /* AppleScriptKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */; };
+		400002CF12C2806700B54553 /* searchLPSwant.sh in Resources */ = {isa = PBXBuildFile; fileRef = 400002CE12C2806700B54553 /* searchLPSwant.sh */; };
+		40038F181295E82D00744B42 /* updateApp.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 40038F171295E82D00744B42 /* updateApp.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		400670AF128D07F7003F524E /* export.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 400670AE128D07F7003F524E /* export.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		403CE9991283A4B400BF84C0 /* dpZIP.pl in Resources */ = {isa = PBXBuildFile; fileRef = 403CE9981283A4B400BF84C0 /* dpZIP.pl */; };
+		40573AF812816571000AE0C4 /* searchWindow.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 40573AF712816571000AE0C4 /* searchWindow.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		405F921E12973FF600530EEC /* backupDB.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 405F921D12973FF600530EEC /* backupDB.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		407E32981282013C00C13375 /* addXMLitem.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 407E32971282013C00C13375 /* addXMLitem.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		4096339B12816D30006F4231 /* hideColumns.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 4096339A12816D30006F4231 /* hideColumns.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		409633A312816EE0006F4231 /* upgradeDB.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 409633A212816EE0006F4231 /* upgradeDB.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		40A334D41298C09200F8AA48 /* commonFunctions.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 40A334D31298C09200F8AA48 /* commonFunctions.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		40A6ECFB128CEA2A00702217 /* playlist.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 40A6ECFA128CEA2A00702217 /* playlist.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		40BDCACF12A4A23C004F4175 /* register.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 40BDCACE12A4A23C004F4175 /* register.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		40E14E0E1284DC6F00A03889 /* searchXML.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 40E14E0D1284DC6F00A03889 /* searchXML.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		59028F56119A53F200F87E2F /* myVinylApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 59028F55119A53F200F87E2F /* myVinylApp.icns */; };
+		590416B111A772F000971AC0 /* myvinylBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 590416B011A772F000971AC0 /* myvinylBG.png */; };
+		59483AE2121665B200E4DF32 /* rl.pl in Resources */ = {isa = PBXBuildFile; fileRef = 59483AE1121665B200E4DF32 /* rl.pl */; };
+		594A117F12322EC8008E201F /* blankWhite.gif in Resources */ = {isa = PBXBuildFile; fileRef = 594A117E12322EC8008E201F /* blankWhite.gif */; };
+		5956308C11AB406B00197A7A /* DiscogsFile.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5956308B11AB406B00197A7A /* DiscogsFile.icns */; };
+		598539BA11C0E6470071C0AE /* HTML_BG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 598539B911C0E6470071C0AE /* HTML_BG.jpg */; };
+		5987F571125AE4CD004E6345 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5987F570125AE4CD004E6345 /* Localizable.strings */; };
+		59A20B38123304D100BE1AB5 /* blankBlack.gif in Resources */ = {isa = PBXBuildFile; fileRef = 59A20B37123304D100BE1AB5 /* blankBlack.gif */; };
+		59C8F35712745234005AE672 /* searchLPShave.sh in Resources */ = {isa = PBXBuildFile; fileRef = 59C8F35612745234005AE672 /* searchLPShave.sh */; };
+		59E0823A11BC2C4800812C57 /* needle.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E0823711BC2C4800812C57 /* needle.png */; };
+		59E0824611BC2FE500812C57 /* myvinylBG-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E0824511BC2FE500812C57 /* myvinylBG-blue.png */; };
+		59E34FF81216620C00876BC3 /* dp.pl in Resources */ = {isa = PBXBuildFile; fileRef = 59E34FF71216620C00876BC3 /* dp.pl */; };
+		59EC4674119CF12600F12788 /* 7za in Resources */ = {isa = PBXBuildFile; fileRef = 59EC4673119CF12600F12788 /* 7za */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		257572D5072881A4000BE9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257572D6072881A4000BE9CA /* MyVinyl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVinyl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		400002CE12C2806700B54553 /* searchLPSwant.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = searchLPSwant.sh; sourceTree = SOURCE_ROOT; };
+		40038F171295E82D00744B42 /* updateApp.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = updateApp.applescript; sourceTree = SOURCE_ROOT; };
+		400670AE128D07F7003F524E /* export.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = export.applescript; sourceTree = SOURCE_ROOT; };
+		4037BA9F128F72D6005CB65F /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4037BAA4128F76F0005CB65F /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		403CE9981283A4B400BF84C0 /* dpZIP.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = dpZIP.pl; sourceTree = SOURCE_ROOT; };
+		40573AF712816571000AE0C4 /* searchWindow.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = searchWindow.applescript; sourceTree = SOURCE_ROOT; };
+		405F921D12973FF600530EEC /* backupDB.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = backupDB.applescript; sourceTree = SOURCE_ROOT; };
+		407E32971282013C00C13375 /* addXMLitem.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = addXMLitem.applescript; sourceTree = SOURCE_ROOT; };
+		4096339A12816D30006F4231 /* hideColumns.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = hideColumns.applescript; sourceTree = "<group>"; };
+		409633A212816EE0006F4231 /* upgradeDB.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = upgradeDB.applescript; sourceTree = "<group>"; };
+		40A334D31298C09200F8AA48 /* commonFunctions.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = commonFunctions.applescript; sourceTree = SOURCE_ROOT; };
+		40A6ECFA128CEA2A00702217 /* playlist.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = playlist.applescript; sourceTree = SOURCE_ROOT; };
+		40BDCACE12A4A23C004F4175 /* register.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = register.applescript; sourceTree = SOURCE_ROOT; };
+		40DF1DF112A84BC60054F2FC /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		40DF1DF212A84BD10054F2FC /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Italian; path = Italian.lproj/Localizable.strings; sourceTree = "<group>"; };
+		40E14E0D1284DC6F00A03889 /* searchXML.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = searchXML.applescript; sourceTree = SOURCE_ROOT; };
+		59028F55119A53F200F87E2F /* myVinylApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = myVinylApp.icns; sourceTree = "<group>"; };
+		590416B011A772F000971AC0 /* myvinylBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myvinylBG.png; sourceTree = "<group>"; };
+		5911F55D123A94B4001863DE /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		59483AE1121665B200E4DF32 /* rl.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = rl.pl; sourceTree = SOURCE_ROOT; };
+		594A117E12322EC8008E201F /* blankWhite.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = blankWhite.gif; sourceTree = "<group>"; };
+		5956308B11AB406B00197A7A /* DiscogsFile.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = DiscogsFile.icns; sourceTree = "<group>"; };
+		598539B911C0E6470071C0AE /* HTML_BG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HTML_BG.jpg; sourceTree = "<group>"; };
+		5987F56A125ADC80004E6345 /* Turkish */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Turkish; path = Turkish.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		5987F572125AE4D5004E6345 /* Turkish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Turkish; path = Turkish.lproj/Localizable.strings; sourceTree = "<group>"; };
+		59A20B37123304D100BE1AB5 /* blankBlack.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = blankBlack.gif; sourceTree = "<group>"; };
+		59C8F35612745234005AE672 /* searchLPShave.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = searchLPShave.sh; sourceTree = "<group>"; };
+		59E0823711BC2C4800812C57 /* needle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = needle.png; sourceTree = "<group>"; };
+		59E0824511BC2FE500812C57 /* myvinylBG-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myvinylBG-blue.png"; sourceTree = "<group>"; };
+		59E34FF71216620C00876BC3 /* dp.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = dp.pl; sourceTree = SOURCE_ROOT; };
+		59EC4673119CF12600F12788 /* 7za */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = 7za; sourceTree = "<group>"; };
+		65359356078DD41800E8BB2F /* AppleScriptKit.sdef */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.sdef; name = AppleScriptKit.sdef; path = /System/Library/Frameworks/AppleScriptKit.framework/Versions/A/Resources/AppleScriptKit.sdef; sourceTree = "<absolute>"; };
+		DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptKit.framework; path = /System/Library/Frameworks/AppleScriptKit.framework; sourceTree = "<absolute>"; };
+		DA206CF3015C4E8B03C91932 /* myVinyl.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = myVinyl.applescript; sourceTree = "<group>"; };
+		E0754CD512FCE5FE0044527A /* Polish */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Polish; path = Polish.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		E0754CE112FCE6280044527A /* Polish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Polish; path = Polish.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		257572CB072881A4000BE9CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257572CC072881A4000BE9CA /* Cocoa.framework in Frameworks */,
+				257572CD072881A4000BE9CA /* AppleScriptKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				40BDCACE12A4A23C004F4175 /* register.applescript */,
+				40A334D31298C09200F8AA48 /* commonFunctions.applescript */,
+				405F921D12973FF600530EEC /* backupDB.applescript */,
+				40A6ECFA128CEA2A00702217 /* playlist.applescript */,
+				40038F171295E82D00744B42 /* updateApp.applescript */,
+				400670AE128D07F7003F524E /* export.applescript */,
+				40E14E0D1284DC6F00A03889 /* searchXML.applescript */,
+				407E32971282013C00C13375 /* addXMLitem.applescript */,
+				409633A212816EE0006F4231 /* upgradeDB.applescript */,
+				4096339A12816D30006F4231 /* hideColumns.applescript */,
+				40573AF712816571000AE0C4 /* searchWindow.applescript */,
+				DA206CF3015C4E8B03C91932 /* myVinyl.applescript */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				257572D6072881A4000BE9CA /* MyVinyl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* myVinyl */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Scripts */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				257572D5072881A4000BE9CA /* Info.plist */,
+			);
+			name = myVinyl;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				400002CE12C2806700B54553 /* searchLPSwant.sh */,
+				403CE9981283A4B400BF84C0 /* dpZIP.pl */,
+				59C8F35612745234005AE672 /* searchLPShave.sh */,
+				5987F570125AE4CD004E6345 /* Localizable.strings */,
+				594A117E12322EC8008E201F /* blankWhite.gif */,
+				59A20B37123304D100BE1AB5 /* blankBlack.gif */,
+				59483AE1121665B200E4DF32 /* rl.pl */,
+				59E34FF71216620C00876BC3 /* dp.pl */,
+				598539B911C0E6470071C0AE /* HTML_BG.jpg */,
+				59E0824511BC2FE500812C57 /* myvinylBG-blue.png */,
+				59E0823711BC2C4800812C57 /* needle.png */,
+				5956308B11AB406B00197A7A /* DiscogsFile.icns */,
+				590416B011A772F000971AC0 /* myvinylBG.png */,
+				59EC4673119CF12600F12788 /* 7za */,
+				59028F55119A53F200F87E2F /* myVinylApp.icns */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				65359356078DD41800E8BB2F /* AppleScriptKit.sdef */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		257572C3072881A4000BE9CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		257572C2072881A4000BE9CA /* MyVinyl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E71A80508A2C90C0034BBD9 /* Build configuration list for PBXNativeTarget "MyVinyl" */;
+			buildPhases = (
+				257572C3072881A4000BE9CA /* Headers */,
+				257572C4072881A4000BE9CA /* AppleScript */,
+				257572C6072881A4000BE9CA /* Resources */,
+				257572C9072881A4000BE9CA /* Sources */,
+				257572CB072881A4000BE9CA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyVinyl;
+			productInstallPath = "$(HOME)/Applications";
+			productName = myVinyl;
+			productReference = 257572D6072881A4000BE9CA /* MyVinyl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4E71A80908A2C90C0034BBD9 /* Build configuration list for PBXProject "myVinyl" */;
+			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Turkish,
+				Italian,
+				Polish,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* myVinyl */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				257572C2072881A4000BE9CA /* MyVinyl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		257572C6072881A4000BE9CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257572C7072881A4000BE9CA /* MainMenu.nib in Resources */,
+				257572C8072881A4000BE9CA /* InfoPlist.strings in Resources */,
+				59028F56119A53F200F87E2F /* myVinylApp.icns in Resources */,
+				59EC4674119CF12600F12788 /* 7za in Resources */,
+				590416B111A772F000971AC0 /* myvinylBG.png in Resources */,
+				5956308C11AB406B00197A7A /* DiscogsFile.icns in Resources */,
+				59E0823A11BC2C4800812C57 /* needle.png in Resources */,
+				59E0824611BC2FE500812C57 /* myvinylBG-blue.png in Resources */,
+				598539BA11C0E6470071C0AE /* HTML_BG.jpg in Resources */,
+				59E34FF81216620C00876BC3 /* dp.pl in Resources */,
+				59483AE2121665B200E4DF32 /* rl.pl in Resources */,
+				594A117F12322EC8008E201F /* blankWhite.gif in Resources */,
+				59A20B38123304D100BE1AB5 /* blankBlack.gif in Resources */,
+				5987F571125AE4CD004E6345 /* Localizable.strings in Resources */,
+				59C8F35712745234005AE672 /* searchLPShave.sh in Resources */,
+				403CE9991283A4B400BF84C0 /* dpZIP.pl in Resources */,
+				400002CF12C2806700B54553 /* searchLPSwant.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		257572C9072881A4000BE9CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257572CA072881A4000BE9CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+				5987F56A125ADC80004E6345 /* Turkish */,
+				4037BAA4128F76F0005CB65F /* German */,
+				40DF1DF112A84BC60054F2FC /* Italian */,
+				E0754CD512FCE5FE0044527A /* Polish */,
+			);
+			name = MainMenu.nib;
+			sourceTree = SOURCE_ROOT;
+		};
+		5987F570125AE4CD004E6345 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5911F55D123A94B4001863DE /* English */,
+				5987F572125AE4D5004E6345 /* Turkish */,
+				4037BA9F128F72D6005CB65F /* German */,
+				40DF1DF212A84BD10054F2FC /* Italian */,
+				E0754CE112FCE6280044527A /* Polish */,
+			);
+			name = Localizable.strings;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E71A80608A2C90C0034BBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				COPY_PHASE_STRIP = NO;
+				GCC_AUTO_VECTORIZATION = NO;
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Applications;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = MyVinyl;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-16";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		4E71A80708A2C90C0034BBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_MODEL_PPC64 = NO;
+				GCC_MODEL_TUNING = "";
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_OUTPUT_FORMAT = binary;
+				INSTALL_PATH = /Applications;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_OSAFLAGS = "-x";
+				PRODUCT_NAME = MyVinyl;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+				STRIP_INSTALLED_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E71A80A08A2C90C0034BBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		4E71A80B08A2C90C0034BBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E71A80508A2C90C0034BBD9 /* Build configuration list for PBXNativeTarget "MyVinyl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E71A80608A2C90C0034BBD9 /* Debug */,
+				4E71A80708A2C90C0034BBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E71A80908A2C90C0034BBD9 /* Build configuration list for PBXProject "myVinyl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E71A80A08A2C90C0034BBD9 /* Debug */,
+				4E71A80B08A2C90C0034BBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

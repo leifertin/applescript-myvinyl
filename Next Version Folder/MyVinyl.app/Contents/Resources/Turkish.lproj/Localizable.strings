@@ -1,0 +1,106 @@
+/* Dialogs */
+"dialog_Welcome" = "MyVinyl'e Hoşgeldiniz";
+
+"dialog_InternetDown" = "Lütfen bilgisayarınızı İnternet'e bağlayın.";
+"dialog_OnlyOneImport" = "Bir seferde sadece tek bir liste içe aktarılabilir.";
+"dialog_LeifertinDown" = "Leifertin.info cevap vermiyor.";
+"dialog_ReleaseDeleted" = "Hata: Bu sürüm silinmiş.";
+"dialog_ItemNotFound" = "Öğe bulunamadı.";
+
+"dialog_NonDiscogsBuySell" = "Sadece \"Discogs Release ID\"si olan öğeler Discogs üzerinden alınıp satılabilir.";
+"dialog_OnlyDiscogsUpdate" = "Sadece \"Discogs Release ID\"si olan öğeler güncelleştirilebilir.";
+
+"dialog_FinishedSync" = "Değişikliklerin Uygulanması Tamamlandı!\n\"Son Etkinlikler\" Listesini temizlemek istiyor musunuz?";
+"dialog_DiscogsSyncSafari" = "Bu işleme devam edebilmek için, daha iyi bir yol bulunana kadar, Discogs hesabınıza Safari ile oturum açmalısınız. Bunu yaptınız mı?";
+"dialog_NothingToSync" = "Eşzamanlanacak birşey yok.";
+
+"dialog_UnknownFile" = "Bilinmeyen dosya türü.";
+"dialog_ImpossibleRange" = "Kullanılması İmkansız Aralık.";
+"dialog_StartAtOne" = "Eğer hiçbir albümünüz yoksa #1'den başlamanız gereklidir.";
+"dialog_QuitAfterImport" = "Belleği boşaltmak için MyVinyl'i kapatıp yeniden başlatmanız onerilir.";
+
+"dialog_FinishedBackup" = "Yedekleme tamamlandı!";
+"dialog_QuitAfterBackup" = "Yüklenen yedeğin düzgün biçimde görüntülenebilmesi için MyVinyl'i kapatıp yeniden çalıştırmanız gerekir.";
+
+"dialog_DownloadingDesktop" = "Masaüstüne indiriliyor...";
+"dialog_DownloadingRemaining" = "%50 daha kaldı.";
+
+"dialog_OnlyJPEG" = "Şimdilik sadece JPEG desteklenmektedir.";
+"dialog_NoAlbum" = "Hiçbir albüm seçili değil!";
+
+"dialog_updateDBReq" = "Veritabanınızın güncelleştirilmesi gerekiyor.";
+
+"dialog_errorNoXLSBin" = "Dışa aktarma başarısız oldu.\nXLS Binary dışa aktarma modüllerini yüklemeniz gerekiyor.";
+"dialog_FinishedExportingHTML" = "HTML dışa aktarma tamamlandı!";
+"dialog_FinishedExportingXLS" = "XLS dışa aktarma tamamlandı!";
+
+"dialog_RemoveTrack" = "\"chosenTrack\" parçasını parça listesinden kaldırmak istediğinize emin misiniz?";
+"dialog_RemoveHave" = "Artık \"thisAlbum\" albümüne sahip olmadığınıza emin misiniz?";
+"dialog_RemoveWant" = "Artık \"thisAlbum\" albümünü istemediğinize emin misiniz?";
+
+"endsWith_FromTrackList" = "parçasını parça listesinden kaldırmak istediğinize emin misiniz?";
+"contains_NoLongerHave" = "albümüne sahip olmadığınıza emin misiniz?";
+"contains_NoLongerWant" = "albümünü istemediğinize emin misiniz? ";
+
+
+/*Dialog Headers*/
+"dialogHeader_Error" = "Hata";
+"dialogHeader_Warning" = "Uyarı";
+"dialogHeader_FYI" = "Sadece bilin istedim";
+
+
+/* Buttons */
+"button_Oh" = "Oh";
+"button_Yay" = "Yaşasın!";
+"button_Quit" = "İş Bitti";
+"button_Yes" = "Evet";
+"button_Hey" = "Hey";
+"button_Close" = "Kapat";
+"button_Cancel" = "Vazgeç";
+"button_ClearRecent" = "Listeyi Temizle";
+"button_IWantThis" = "Bunu istiyorum!";
+"button_IHaveThis" = "Bu bende var!";
+
+/* Menus */
+"menu_BuyFrom" = "Şuradan Satın Al...";
+"menu_SellOn" = "Şurada Sat...";
+"menu_SubmitDiscogs" = "Discogs'a Gönder...";
+"menu_EditDiscogs" = "Discogs'da Düzenle...";
+"menu_ViewSerialNumber" = "Lisans Numarasını Gör";
+"menu_EnterSerialNumber" = "Lisans Numarasını Gir";
+
+/* Hover Text */
+"hover_UpdateItem" = "Öğeyi güncelle";
+"hover_EditNotes" = "Notları Düzenl";
+"hover_DeleteItem" = "Öğeyi Sil";
+"hover_AddItem" = "Öğeyi Ekle";
+"hover_ToggleArt" = "Odaklamayı Değiştir";
+"hover_ToggleTracks" = "Parça Listesini Değiştir";
+
+/* Misc */
+"misc_HaveTotal" = "500 albümüm var.";
+"misc_HaveWord" = "sahibim";
+"misc_WantTotal" = "500 albüm istiyorum.";
+"misc_WantWord" = "istiyorum";
+"misc_RememberHave" = "sahip olduğum albümler hatırlanıyor";
+"misc_RememberWant" = "istediğim albümler hatırlanıyor";
+"misc_Loading" = "yükleniyor";
+"misc_TimeRemaining" = "kalan süre: 0.4 dakika";
+"misc_OneItem" = "1 öğe";
+"misc_MoreItems" = "0 öğe";
+"misc_ZeroItems" = "0 öğe";
+"misc_partOfWhole" = "1/2";
+"misc_NothingSelected" = "Hiçbir Şey Seçili Değil";
+"misc_ViewOnDiscogs" = "Discogs'da Gör";
+
+/* Album Information */
+"album_Artist" = "Sanatçı";
+"album_Title" = "Albüm Adı";
+"album_Label" = "Firma";
+"album_Country" = "Ülke";
+"album_Catalog" = "Katalog No";
+"album_Date" = "Çıkış Tarihi";
+"album_Format" = "Format";
+"album_Credits" = "Bilgi";
+"album_Notes" = "Notlar";
+"album_TrackList" = "Parça Listesi";

@@ -1,0 +1,94 @@
+/* Dialogs */
+"dialog_Welcome" = "Witamy w MyVinyl";
+
+"dialog_InternetDown" = "Proszę podłączyć komputer do internetu.";
+"dialog_OnlyOneImport" = "Można importować tylko jedną listę na raz.";
+"dialog_LeifertinDown" = "Leifertin.info nie odpowiada.";
+"dialog_ReleaseDeleted" = "Błąd: To wydanie zostało usunięte.";
+"dialog_ItemNotFound" = "Obiektu nie znaleziono.";
+
+"dialog_NonDiscogsBuySell" = "Tylko obiekty z \"Discogs Release IDs\" mogą być zakupione/sprzedane przez Discogs.";
+"dialog_OnlyDiscogsUpdate" = "Tylko obiekty z \"Discogs Release IDs\" mogą być uaktualnione.";
+
+"dialog_FinishedSync" = "Zakończono zastosowywanie zmian!\nCzy chcesz oczyścić listę \"Recent Activity\"?";
+"dialog_DiscogsSyncSafari" = "Dopóki nie ma lepszego sposobu, musisz za pomocą Safari zalogować się na swoje konto Discogs, aby kontynuować ten proces. Czy zrobiłeś to?";
+"dialog_NothingToSync" = "Nie ma nic do synchronizacji.";
+
+"dialog_UnknownFile" = "Nieznany typ pliku.";
+"dialog_ImpossibleRange" = "Niemożliwy zakres";
+"dialog_StartAtOne" = "Musisz zacząć od numeru #1 jeśli nie masz żadnych albumów.";
+"dialog_QuitAfterImport" = "Po zakończonym importowaniu zaleca się ponowne uruchomienie programu MyVinyl, aby oczyścić pamięć podręczną.";
+
+"dialog_FinishedBackup" = "Tworzenie kopii zapasowej zakończone!";
+"dialog_QuitAfterBackup" = "Musisz opuścić i ponownie uruchomić program MyVinyl, aby poprawnie wyświetlić załadowaną kopię zapasową.";
+
+"dialog_DownloadingDesktop" = "Pobieranie na Biurko…";
+"dialog_DownloadingRemaining" = "50% pozostało.";
+
+"dialog_OnlyJPEG" = "Obecnie obsługiwane są tylko pliki JPEG.";
+"dialog_NoAlbum" = "Nie wybrano żadnego albumu!";
+
+"dialog_updateDBReq" = "Twoja baza danych musi zostać uaktualniona.";
+
+"dialog_errorNoXLSBin" = "Eksport danych zakończony niepowodzeniem.\nMusisz zainstalować moduł eksportu bibliotek XLS.";
+"dialog_FinishedExportingHTML" = "Zakończono eksportowanie do HTML!";
+"dialog_FinishedExportingXLS" = "Zakończono eksportowanie do XLS!";
+
+"dialog_RemoveTrack" = "Jesteś pewien, że chcesz usunąć \"chosenTrack\" z listy utworów?";
+"dialog_RemoveHave" = "Jesteś pewien, że już nie masz \"thisAlbum\"?";
+"dialog_RemoveWant" = "Jesteś pewien, że już nie chcesz \"thisAlbum\"?";
+
+"contains_NoLongerWant" = "Jesteś pewien, że już nie chcesz ";
+"contains_NoLongerHave" = "Jesteś pewien, że już nie masz ";
+"endsWith_FromTrackList" = " z listy utworów?";
+
+
+/*Dialog Headers*/
+"dialogHeader_Error" = "Błąd";
+"dialogHeader_Warning" = "Ostrzeżenie";
+"dialogHeader_FYI" = "Dla Twojej informacji";
+
+
+/* Buttons */
+"button_Oh" = "Och";
+"button_Yay" = "Kurczę!";
+"button_Quit" = "Wyjście";
+"button_Yes" = "Tak";
+"button_Hey" = "Cześć";
+"button_Close" = "Zamknij";
+"button_Cancel" = "Anuluj";
+"button_ClearRecent" = "Wyczyść listę";
+"button_IWantThis" = "Chcę to mieć!";
+"button_IHaveThis" = "Mam już to!";
+
+/* Menus */
+"menu_BuyFrom" = "Kup przez...";
+"menu_SellOn" = "Sprzedaj przez...";
+"menu_SubmitDiscogs" = "Prześlij do Discogs...";
+"menu_EditDiscogs" = "Edytuj w Discogs...";
+"menu_ViewSerialNumber" = "Pokaż numer seryjny";
+"menu_EnterSerialNumber" = "Wprowadź numer seryjny";
+
+/* Hover Text */
+"hover_UpdateItem" = "Uaktualnij obiekt";
+"hover_EditNotes" = "Edytuj notatki";
+"hover_DeleteItem" = "Usuń obiekt";
+"hover_AddItem" = "Dodaj obiekt";
+"hover_ToggleArt" = "Toggle Focus";
+"hover_ToggleTracks" = "Przełącz listę utworów";
+
+/* Misc */
+"misc_HaveTotal" = "Mam 500 albumów.";
+"misc_HaveWord" = "mam";
+"misc_WantTotal" = "Chcę mieć 500 albumów.";
+"misc_WantWord" = "chcę";
+"misc_RememberHave" = "pamiętając albumy, które mam";
+"misc_RememberWant" = "pamiętając albumy, które chcę";
+"misc_Loading" = "ładowanie";
+"misc_TimeRemaining" = "pozostały czas: 0,4 minuty";
+"misc_OneItem" = "1 obiekt";
+"misc_MoreItems" = "0 obiekty";
+"misc_ZeroItems" = "0 obiektów";
+"misc_partOfWhole" = "1/2";
+"misc_NothingSelected" = "Nic nie zaznaczono";
+"misc_ViewOnDiscogs" = "Pokaż w Discogs";

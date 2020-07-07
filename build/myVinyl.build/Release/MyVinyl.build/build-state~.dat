@@ -1,0 +1,1518 @@
+TMyVinyl
+v7
+r0
+t396858182.708005
+cCheck dependencies
+cProcessInfoPlistFile /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Info.plist Info.plist
+cOSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/myVinyl.scpt myVinyl.applescript
+cOSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/searchWindow.scpt searchWindow.applescript
+cOSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/hideColumns.scpt hideColumns.applescript
+cOSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/upgradeDB.scpt upgradeDB.applescript
+cOSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/addXMLitem.scpt addXMLitem.applescript
+cOSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/searchXML.scpt searchXML.applescript
+cOSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/playlist.scpt playlist.applescript
+cOSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/export.scpt export.applescript
+cOSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/updateApp.scpt updateApp.applescript
+cOSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/backupDB.scpt backupDB.applescript
+cOSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/commonFunctions.scpt commonFunctions.applescript
+cOSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/register.scpt register.applescript
+cStripNIB /Users/grayheflin/Documents/Programming/Xcode/myVinyl/English.lproj/MainMenu.nib
+cStripNIB /Users/grayheflin/Documents/Programming/Xcode/myVinyl/Turkish.lproj/MainMenu.nib
+cStripNIB /Users/grayheflin/Documents/Programming/Xcode/myVinyl/German.lproj/MainMenu.nib
+cStripNIB /Users/grayheflin/Documents/Programming/Xcode/myVinyl/Italian.lproj/MainMenu.nib
+cStripNIB /Users/grayheflin/Documents/Programming/Xcode/myVinyl/Polish.lproj/MainMenu.nib
+cCopyStringsFile /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCpResource build/Release/MyVinyl.app/Contents/Resources/myVinylApp.icns myVinylApp.icns
+cCpResource build/Release/MyVinyl.app/Contents/Resources/7za 7za
+cCpResource build/Release/MyVinyl.app/Contents/Resources/myvinylBG.png myvinylBG.png
+cCpResource build/Release/MyVinyl.app/Contents/Resources/DiscogsFile.icns DiscogsFile.icns
+cCpResource build/Release/MyVinyl.app/Contents/Resources/needle.png needle.png
+cCpResource build/Release/MyVinyl.app/Contents/Resources/myvinylBG-blue.png myvinylBG-blue.png
+cCpResource build/Release/MyVinyl.app/Contents/Resources/HTML_BG.jpg HTML_BG.jpg
+cCpResource build/Release/MyVinyl.app/Contents/Resources/dp.pl dp.pl
+cCpResource build/Release/MyVinyl.app/Contents/Resources/rl.pl rl.pl
+cCpResource build/Release/MyVinyl.app/Contents/Resources/blankWhite.gif blankWhite.gif
+cCpResource build/Release/MyVinyl.app/Contents/Resources/blankBlack.gif blankBlack.gif
+cCopyStringsFile /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj/Localizable.strings English.lproj/Localizable.strings
+cCopyStringsFile /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Turkish.lproj/Localizable.strings Turkish.lproj/Localizable.strings
+cCopyStringsFile /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/German.lproj/Localizable.strings German.lproj/Localizable.strings
+cCopyStringsFile /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Italian.lproj/Localizable.strings Italian.lproj/Localizable.strings
+cCopyStringsFile /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Polish.lproj/Localizable.strings Polish.lproj/Localizable.strings
+cCpResource build/Release/MyVinyl.app/Contents/Resources/searchLPShave.sh searchLPShave.sh
+cCpResource build/Release/MyVinyl.app/Contents/Resources/dpZIP.pl dpZIP.pl
+cCpResource build/Release/MyVinyl.app/Contents/Resources/searchLPSwant.sh searchLPSwant.sh
+cCompileC build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/main.o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/main.o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/MyVinyl normal i386
+cLd /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/MyVinyl normal x86_64
+cCompileC build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/main.o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/MyVinyl normal ppc
+cCreateUniversalBinary /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/MacOS/MyVinyl normal "x86_64 i386 ppc"
+cGenerateDSYMFile /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app.dSYM /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/MacOS/MyVinyl
+cTouch /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004C238B9B00000000000000EE
+t1277397915
+s238
+
+N/System/Library/Frameworks/AppleScriptKit.framework/AppleScriptKit
+c000000004CF54AF800000000001BBC40
+t1291143928
+s1817664
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004B5FA877000000000000A5E0
+t1264560247
+s42464
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/7za
+c000000004A6312D600000000003461D4
+t1248006870
+s3432916
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/DiscogsFile.icns
+c000000004BFB08E20000000000036F9E
+t1274743010
+s225182
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/English.lproj/InfoPlist.strings
+c000000004BF74A8800000000000000D0
+t1274497672
+s208
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/English.lproj/Localizable.strings
+c000000004D4CD2F00000000000000FA7
+t1296880368
+s4007
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/English.lproj/MainMenu.nib
+c0000000051F75B8D00000000000000AA
+t1375165325
+s170
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/German.lproj/Localizable.strings
+c000000004D4CD2D800000000000010F5
+t1296880344
+s4341
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/German.lproj/MainMenu.nib
+c0000000051F75B4E0000000000000088
+t1375165262
+s136
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/HTML_BG.jpg
+c000000004C10755E0000000000000B62
+t1276147038
+s2914
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/Italian.lproj/Localizable.strings
+c000000004D4CD2C40000000000001097
+t1296880324
+s4247
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/Italian.lproj/MainMenu.nib
+c0000000051F75B270000000000000088
+t1375165223
+s136
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/Polish.lproj/Localizable.strings
+c000000004D4CCB720000000000000FC7
+t1296878450
+s4039
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/Polish.lproj/MainMenu.nib
+c0000000051F75B0800000000000000AA
+t1375165192
+s170
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/Turkish.lproj/Localizable.strings
+c000000004D4CD2E800000000000011A2
+t1296880360
+s4514
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/Turkish.lproj/MainMenu.nib
+c0000000051F75B710000000000000088
+t1375165297
+s136
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/addXMLitem.applescript
+c0000000051F7577600000000000093DC
+t1375164278
+s37852
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/backupDB.applescript
+c000000004D12464E0000000000001E3F
+t1293043278
+s7743
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/blankBlack.gif
+c000000004C82CD44000000000000002B
+t1283640644
+s43
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/blankWhite.gif
+c000000004C81F738000000000000002B
+t1283585848
+s43
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app
+t1375165382
+s102
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app.dSYM
+t1375165382
+s102
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Info.plist
+t1375165335
+s873
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/MacOS/MyVinyl
+t1375165382
+s45696
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/PkgInfo
+t1375165335
+s8
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/7za
+t1375165377
+s3432944
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/DiscogsFile.icns
+t1375165376
+s225182
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1375165378
+s103
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj/Localizable.strings
+t1375165377
+s4007
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj/MainMenu.nib
+t1375165373
+s286291
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/German.lproj/Localizable.strings
+t1375165379
+s4341
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/German.lproj/MainMenu.nib
+t1375165374
+s295942
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/HTML_BG.jpg
+t1375165376
+s2914
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Italian.lproj/Localizable.strings
+t1375165381
+s4247
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Italian.lproj/MainMenu.nib
+t1375165374
+s294540
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Polish.lproj/Localizable.strings
+t1375165381
+s4039
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Polish.lproj/MainMenu.nib
+t1375165375
+s296904
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/addXMLitem.scpt
+t1375165349
+s35486
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/backupDB.scpt
+t1375165353
+s10226
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/commonFunctions.scpt
+t1375165353
+s9554
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/export.scpt
+t1375165351
+s23836
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/hideColumns.scpt
+t1375165347
+s4674
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/myVinyl.scpt
+t1375165371
+s171704
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/playlist.scpt
+t1375165350
+s34138
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/register.scpt
+t1375165354
+s6844
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/searchWindow.scpt
+t1375165347
+s8258
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/searchXML.scpt
+t1375165350
+s14884
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/updateApp.scpt
+t1375165353
+s14204
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/upgradeDB.scpt
+t1375165349
+s7762
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Turkish.lproj/Localizable.strings
+t1375165379
+s4514
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Turkish.lproj/MainMenu.nib
+t1375165373
+s298620
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/blankBlack.gif
+t1375165376
+s43
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/blankWhite.gif
+t1375165376
+s43
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/dp.pl
+t1375165376
+s114
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/dpZIP.pl
+t1375165381
+s127
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/myVinylApp.icns
+t1375165376
+s425747
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/myvinylBG-blue.png
+t1375165376
+s282450
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/myvinylBG.png
+t1375165376
+s223049
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/needle.png
+t1375165376
+s672112
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/rl.pl
+t1375165376
+s437
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/searchLPShave.sh
+t1375165381
+s1402
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/searchLPSwant.sh
+t1375165381
+s1398
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/MyVinyl
+t1375165382
+s13180
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/MyVinyl.LinkFileList
+c0000000051F75B97000000000000007B
+t1375165335
+s123
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/main.o
+t1375165381
+s3476
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/MyVinyl
+t1375165382
+s12928
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/MyVinyl.LinkFileList
+c0000000051F75B97000000000000007A
+t1375165335
+s122
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/main.o
+t1375165382
+s3624
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/MyVinyl
+t1375165382
+s9152
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/MyVinyl.LinkFileList
+c0000000051F75B97000000000000007D
+t1375165335
+s125
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/main.o
+t1375165382
+s3772
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/commonFunctions.applescript
+c000000004CF47E3E0000000000001B85
+t1291091518
+s7045
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/dp.pl
+c000000004359496C0000000000000072
+t1129924972
+s114
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/dpZIP.pl
+c000000004CD36D0E000000000000007F
+t1288924430
+s127
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/export.applescript
+c000000004CDCE7A20000000000004897
+t1289545634
+s18583
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/hideColumns.applescript
+c000000004EC9BD1C0000000000000C01
+t1321843996
+s3073
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/main.m
+c000000004BE716FA00000000000000C5
+t1273435898
+s197
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/myVinyl.applescript
+c0000000051F75A7000000000000295A6
+t1375165040
+s169382
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/myVinylApp.icns
+c000000004BEA1C5C0000000000067F13
+t1273633884
+s425747
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/myvinylBG-blue.png
+c000000004C0BF8580000000000044F52
+t1275852888
+s282450
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/myvinylBG.png
+c000000004BF73B4C0000000000036749
+t1274493772
+s223049
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/needle.png
+c000000004C0BF2E000000000000A4170
+t1275851488
+s672112
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/playlist.applescript
+c000000004EC9E2CF0000000000008F18
+t1321853647
+s36632
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/register.applescript
+c00000000505E583C00000000000013AD
+t1348360252
+s5037
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/rl.pl
+c000000004354328400000000000001B5
+t1129591428
+s437
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/searchLPShave.sh
+c000000004D124A5E000000000000057A
+t1293044318
+s1402
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/searchLPSwant.sh
+c000000004D1256FE0000000000000576
+t1293047550
+s1398
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/searchWindow.applescript
+c000000004D1515C20000000000001E13
+t1293227458
+s7699
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/searchXML.applescript
+c000000004FFC9D56000000000000377B
+t1341955414
+s14203
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/updateApp.applescript
+c0000000051F759B6000000000000324C
+t1375164854
+s12876
+
+N/Users/grayheflin/Documents/Programming/Xcode/myVinyl/upgradeDB.applescript
+c000000004D0DD08400000000000020D9
+t1292750980
+s8409
+
+N/Users/kristinfellows/Desktop/searchLPSwant.sh
+c000000004D123C450000000000000576
+t1293040709
+s1398
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/7za
+c000000004A6312D600000000003461D4
+t1248006870
+s3432916
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/DiscogsFile.icns
+c000000004BFB08E20000000000036F9E
+t1274743010
+s225182
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/English.lproj/InfoPlist.strings
+c000000004BF74A8800000000000000D0
+t1274497672
+s208
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/English.lproj/Localizable.strings
+c000000004D14FBD50000000000000F89
+t1293220821
+s3977
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/English.lproj/MainMenu.nib
+c000000004D150D3E0000000000000088
+t1293225278
+s136
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/German.lproj/Localizable.strings
+c000000004D15048200000000000010D6
+t1293223042
+s4310
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/German.lproj/MainMenu.nib
+c000000004D150D6D0000000000000088
+t1293225325
+s136
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/HTML_BG.jpg
+c000000004C10755E0000000000000B62
+t1276147038
+s2914
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/Italian.lproj/Localizable.strings
+c000000004D15056F0000000000001077
+t1293223279
+s4215
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/Italian.lproj/MainMenu.nib
+c000000004D150D990000000000000088
+t1293225369
+s136
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/Turkish.lproj/Localizable.strings
+c000000004D1506560000000000001184
+t1293223510
+s4484
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/Turkish.lproj/MainMenu.nib
+c000000004D150DC60000000000000088
+t1293225414
+s136
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/addXMLitem.applescript
+c000000004D14FFA80000000000009395
+t1293221800
+s37781
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/backupDB.applescript
+c000000004D12383E0000000000001E3F
+t1293039678
+s7743
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/blankBlack.gif
+c000000004C82CD44000000000000002B
+t1283640644
+s43
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/blankWhite.gif
+c000000004C81F738000000000000002B
+t1283585848
+s43
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app
+t1293225489
+s102
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app.dSYM
+t1293225489
+s102
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Info.plist
+t1293225487
+s873
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/MacOS/MyVinyl
+t1293225489
+s45688
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/PkgInfo
+t1293225487
+s8
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/7za
+t1293225489
+s3432944
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/DiscogsFile.icns
+t1293225489
+s225182
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1293225489
+s103
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj/Localizable.strings
+t1293225489
+s3977
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj/MainMenu.nib
+t1293225489
+s273015
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/German.lproj/Localizable.strings
+t1293225489
+s4310
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/German.lproj/MainMenu.nib
+t1293225489
+s276032
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/HTML_BG.jpg
+t1293225489
+s2914
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Italian.lproj/Localizable.strings
+t1293225489
+s4215
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Italian.lproj/MainMenu.nib
+t1293225489
+s274739
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/addXMLitem.scpt
+t1293225487
+s35762
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/backupDB.scpt
+t1293225488
+s10226
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/commonFunctions.scpt
+t1293225488
+s9554
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/export.scpt
+t1293225488
+s23836
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/hideColumns.scpt
+t1293225487
+s3906
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/myVinyl.scpt
+t1293225489
+s159726
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/playlist.scpt
+t1293225488
+s30134
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/register.scpt
+t1293225489
+s4560
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/searchWindow.scpt
+t1293225487
+s8258
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/searchXML.scpt
+t1293225488
+s14774
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/updateApp.scpt
+t1293225488
+s14214
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/upgradeDB.scpt
+t1293225487
+s7762
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Turkish.lproj/Localizable.strings
+t1293225489
+s4484
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Turkish.lproj/MainMenu.nib
+t1293225489
+s278752
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/blankBlack.gif
+t1293225489
+s43
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/blankWhite.gif
+t1293225489
+s43
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/dp.pl
+t1293225489
+s114
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/dpZIP.pl
+t1293225489
+s127
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/myVinylApp.icns
+t1293225489
+s425747
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/myvinylBG-blue.png
+t1293225489
+s282450
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/myvinylBG.png
+t1293225489
+s223049
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/needle.png
+t1293225489
+s672112
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/rl.pl
+t1293225489
+s437
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/searchLPShave.sh
+t1293225489
+s1402
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/searchLPSwant.sh
+t1293225489
+s1398
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/MyVinyl
+t1293225489
+s13172
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/MyVinyl.LinkFileList
+c000000004D150E0F0000000000000077
+t1293225487
+s119
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/main.o
+t1293225489
+s3468
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/MyVinyl
+t1293225489
+s12920
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/MyVinyl.LinkFileList
+c000000004D150E0F0000000000000076
+t1293225487
+s118
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/main.o
+t1293225489
+s3616
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/MyVinyl
+t1293225489
+s9144
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/MyVinyl.LinkFileList
+c000000004D150E0F0000000000000079
+t1293225487
+s121
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/main.o
+t1293225489
+s3764
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/commonFunctions.applescript
+c000000004CF4702E0000000000001B85
+t1291087918
+s7045
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/dp.pl
+c000000004359496C0000000000000072
+t1129924972
+s114
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/dpZIP.pl
+c000000004CD36D0E000000000000007F
+t1288924430
+s127
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/export.applescript
+c000000004CDCD9920000000000004897
+t1289542034
+s18583
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/hideColumns.applescript
+c000000004CE8A6080000000000000A50
+t1290315272
+s2640
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/main.m
+c000000004BE716FA00000000000000C5
+t1273435898
+s197
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/myVinyl.applescript
+c000000004D150C9A00000000000245F9
+t1293225114
+s148985
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/myVinylApp.icns
+c000000004BEA1C5C0000000000067F13
+t1273633884
+s425747
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/myvinylBG-blue.png
+c000000004C0BF8580000000000044F52
+t1275852888
+s282450
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/myvinylBG.png
+c000000004BF73B4C0000000000036749
+t1274493772
+s223049
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/needle.png
+c000000004C0BF2E000000000000A4170
+t1275851488
+s672112
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/playlist.applescript
+c000000004D0DC4A6000000000000764B
+t1292747942
+s30283
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/register.applescript
+c000000004D0E70210000000000000BA3
+t1292791841
+s2979
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/rl.pl
+c000000004354328400000000000001B5
+t1129591428
+s437
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/searchLPShave.sh
+c000000004D123C4F000000000000057A
+t1293040719
+s1402
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/searchLPSwant.sh
+c000000004D1248EF0000000000000576
+t1293043951
+s1398
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/searchWindow.applescript
+c000000004D1507B30000000000001E13
+t1293223859
+s7699
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/searchXML.applescript
+c000000004D150A8400000000000035F5
+t1293224580
+s13813
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/updateApp.applescript
+c000000004D1506A50000000000003251
+t1293223589
+s12881
+
+N/Volumes/Woah/Documents/Programming/Xcode/myVinyl/upgradeDB.applescript
+c000000004D0DC27500000000000020D9
+t1292747381
+s8409
+
+NInfo.plist
+c0000000051F7597100000000000007C3
+t1375164785
+s1987
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies396858135#396858135#0(0"0(0#1#0"8658772160#0"0#
+
+CCompileC build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/main.o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s396858181.776784
+e396858182.206501
+r1
+xCompileC
+xbuild/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/main.o
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/grayheflin/Documents/Programming/Xcode/myVinyl/main.m396858181#396858182#0(0"0(0#0#60"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/main.m8658674304#1066"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -ftree-vectorize -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/MyVinyl.hmap -F/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release -I/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/include -I/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/DerivedSources/i386 -I/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/DerivedSources -c /Users/grayheflin/Documents/Programming/Xcode/myVinyl/main.m -o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/main.o0#
+
+CCompileC build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/main.o /Volumes/Woah/Documents/Programming/Xcode/myVinyl/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314918289.640601
+e314918289.671170
+r1
+xCompileC
+xbuild/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/main.o
+x/Volumes/Woah/Documents/Programming/Xcode/myVinyl/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Volumes/Woah/Documents/Programming/Xcode/myVinyl/main.m314918289#314918289#0(0"0(0#0#56"/Volumes/Woah/Documents/Programming/Xcode/myVinyl/main.m8602823136#1034"    cd /Volumes/Woah/Documents/Programming/Xcode/myVinyl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -ftree-vectorize -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/MyVinyl.hmap -F/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release -I/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/include -I/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/DerivedSources/i386 -I/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/DerivedSources -c /Volumes/Woah/Documents/Programming/Xcode/myVinyl/main.m -o /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/main.o0#
+
+CCompileC build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/main.o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s396858182.596709
+e396858182.621123
+r1
+xCompileC
+xbuild/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/main.o
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/grayheflin/Documents/Programming/Xcode/myVinyl/main.m396858182#396858182#0(0"0(0#0#60"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/main.m8622372192#1063"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -ftree-vectorize -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/MyVinyl.hmap -F/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release -I/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/include -I/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/DerivedSources/ppc -I/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/DerivedSources -c /Users/grayheflin/Documents/Programming/Xcode/myVinyl/main.m -o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/main.o0#
+
+CCompileC build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/main.o /Volumes/Woah/Documents/Programming/Xcode/myVinyl/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s314918289.863029
+e314918289.892273
+r1
+xCompileC
+xbuild/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/main.o
+x/Volumes/Woah/Documents/Programming/Xcode/myVinyl/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Volumes/Woah/Documents/Programming/Xcode/myVinyl/main.m314918289#314918289#0(0"0(0#0#56"/Volumes/Woah/Documents/Programming/Xcode/myVinyl/main.m8692112832#1031"    cd /Volumes/Woah/Documents/Programming/Xcode/myVinyl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -ftree-vectorize -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/MyVinyl.hmap -F/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release -I/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/include -I/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/DerivedSources/ppc -I/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/DerivedSources -c /Volumes/Woah/Documents/Programming/Xcode/myVinyl/main.m -o /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/main.o0#
+
+CCompileC build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/main.o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s396858181.775859
+e396858182.208625
+r1
+xCompileC
+xbuild/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/main.o
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/grayheflin/Documents/Programming/Xcode/myVinyl/main.m396858181#396858182#0(0"0(0#0#60"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/main.m8658863040#1072"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -ftree-vectorize -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/MyVinyl.hmap -F/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release -I/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/include -I/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/DerivedSources/x86_64 -I/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/DerivedSources -c /Users/grayheflin/Documents/Programming/Xcode/myVinyl/main.m -o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/main.o /Volumes/Woah/Documents/Programming/Xcode/myVinyl/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s314918289.639365
+e314918289.682299
+r1
+xCompileC
+xbuild/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/main.o
+x/Volumes/Woah/Documents/Programming/Xcode/myVinyl/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Volumes/Woah/Documents/Programming/Xcode/myVinyl/main.m314918289#314918289#0(0"0(0#0#56"/Volumes/Woah/Documents/Programming/Xcode/myVinyl/main.m8692434080#1040"    cd /Volumes/Woah/Documents/Programming/Xcode/myVinyl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -ftree-vectorize -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/MyVinyl.hmap -F/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release -I/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/include -I/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/DerivedSources/x86_64 -I/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/DerivedSources -c /Volumes/Woah/Documents/Programming/Xcode/myVinyl/main.m -o /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/main.o0#
+
+CCopyStringsFile /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s396858175.058632
+e396858178.726577
+r1
+xCopyStringsFile
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings396858175#396858178#0(0"0(0#0#85"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/English.lproj/InfoPlist.strings8658869920#397"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-8 English.lproj/InfoPlist.strings --outdir /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj/Localizable.strings English.lproj/Localizable.strings
+s396858176.281673
+e396858177.997150
+r1
+xCopyStringsFile
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj/Localizable.strings
+xEnglish.lproj/Localizable.strings
+lSLF07#2@38"Copy English.lproj/Localizable.strings396858176#396858177#0(0"0(0#0#87"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/English.lproj/Localizable.strings8627648800#398"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-8 English.lproj/Localizable.strings --outdir /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/German.lproj/Localizable.strings German.lproj/Localizable.strings
+s396858178.727815
+e396858179.569802
+r1
+xCopyStringsFile
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/German.lproj/Localizable.strings
+xGerman.lproj/Localizable.strings
+lSLF07#2@37"Copy German.lproj/Localizable.strings396858178#396858179#0(0"0(0#0#86"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/German.lproj/Localizable.strings8623462432#396"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-8 German.lproj/Localizable.strings --outdir /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/German.lproj0#
+
+CCopyStringsFile /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Italian.lproj/Localizable.strings Italian.lproj/Localizable.strings
+s396858179.498653
+e396858181.764295
+r1
+xCopyStringsFile
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Italian.lproj/Localizable.strings
+xItalian.lproj/Localizable.strings
+lSLF07#2@38"Copy Italian.lproj/Localizable.strings396858179#396858181#0(0"0(0#0#87"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/Italian.lproj/Localizable.strings8632847520#398"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-8 Italian.lproj/Localizable.strings --outdir /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Italian.lproj0#
+
+CCopyStringsFile /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Polish.lproj/Localizable.strings Polish.lproj/Localizable.strings
+s396858179.569911
+e396858181.767172
+r1
+xCopyStringsFile
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Polish.lproj/Localizable.strings
+xPolish.lproj/Localizable.strings
+lSLF07#2@37"Copy Polish.lproj/Localizable.strings396858179#396858181#0(0"0(0#0#86"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/Polish.lproj/Localizable.strings8622649248#396"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-8 Polish.lproj/Localizable.strings --outdir /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Polish.lproj0#
+
+CCopyStringsFile /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Turkish.lproj/Localizable.strings Turkish.lproj/Localizable.strings
+s396858178.726747
+e396858179.498452
+r1
+xCopyStringsFile
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Turkish.lproj/Localizable.strings
+xTurkish.lproj/Localizable.strings
+lSLF07#2@38"Copy Turkish.lproj/Localizable.strings396858178#396858179#0(0"0(0#0#87"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/Turkish.lproj/Localizable.strings8624051456#398"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-8 Turkish.lproj/Localizable.strings --outdir /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Turkish.lproj0#
+
+CCopyStringsFile /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s314918289.411557
+e314918289.531298
+r1
+xCopyStringsFile
+x/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings314918289#314918289#0(0"0(0#0#81"/Volumes/Woah/Documents/Programming/Xcode/myVinyl/English.lproj/InfoPlist.strings8694144928#389"    cd /Volumes/Woah/Documents/Programming/Xcode/myVinyl    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-8 English.lproj/InfoPlist.strings --outdir /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj/Localizable.strings English.lproj/Localizable.strings
+s314918289.456600
+e314918289.532297
+r1
+xCopyStringsFile
+x/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj/Localizable.strings
+xEnglish.lproj/Localizable.strings
+lSLF07#2@38"Copy English.lproj/Localizable.strings314918289#314918289#0(0"0(0#0#83"/Volumes/Woah/Documents/Programming/Xcode/myVinyl/English.lproj/Localizable.strings8691591040#390"    cd /Volumes/Woah/Documents/Programming/Xcode/myVinyl    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-8 English.lproj/Localizable.strings --outdir /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/German.lproj/Localizable.strings German.lproj/Localizable.strings
+s314918289.567148
+e314918289.600199
+r1
+xCopyStringsFile
+x/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/German.lproj/Localizable.strings
+xGerman.lproj/Localizable.strings
+lSLF07#2@37"Copy German.lproj/Localizable.strings314918289#314918289#0(0"0(0#0#82"/Volumes/Woah/Documents/Programming/Xcode/myVinyl/German.lproj/Localizable.strings8694685248#388"    cd /Volumes/Woah/Documents/Programming/Xcode/myVinyl    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-8 German.lproj/Localizable.strings --outdir /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/German.lproj0#
+
+CCopyStringsFile /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Italian.lproj/Localizable.strings Italian.lproj/Localizable.strings
+s314918289.600333
+e314918289.639230
+r1
+xCopyStringsFile
+x/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Italian.lproj/Localizable.strings
+xItalian.lproj/Localizable.strings
+lSLF07#2@38"Copy Italian.lproj/Localizable.strings314918289#314918289#0(0"0(0#0#83"/Volumes/Woah/Documents/Programming/Xcode/myVinyl/Italian.lproj/Localizable.strings8694346368#390"    cd /Volumes/Woah/Documents/Programming/Xcode/myVinyl    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-8 Italian.lproj/Localizable.strings --outdir /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Italian.lproj0#
+
+CCopyStringsFile /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Turkish.lproj/Localizable.strings Turkish.lproj/Localizable.strings
+s314918289.532398
+e314918289.567028
+r1
+xCopyStringsFile
+x/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Turkish.lproj/Localizable.strings
+xTurkish.lproj/Localizable.strings
+lSLF07#2@38"Copy Turkish.lproj/Localizable.strings314918289#314918289#0(0"0(0#0#83"/Volumes/Woah/Documents/Programming/Xcode/myVinyl/Turkish.lproj/Localizable.strings8695374624#390"    cd /Volumes/Woah/Documents/Programming/Xcode/myVinyl    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-8 Turkish.lproj/Localizable.strings --outdir /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Turkish.lproj0#
+
+CCpResource build/Release/MyVinyl.app/Contents/Resources/7za 7za
+s396858176.229547
+e396858178.727734
+r1
+xCpResource
+xbuild/Release/MyVinyl.app/Contents/Resources/7za
+x7za
+lSLF07#2@8"Copy 7za396858176#396858178#0(0"0(0#0#57"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/7za8661318240#401"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/grayheflin/Documents/Programming/Xcode/myVinyl/7za /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources0#
+
+CCpResource build/Release/MyVinyl.app/Contents/Resources/DiscogsFile.icns DiscogsFile.icns
+s396858176.233218
+e396858176.281569
+r1
+xCpResource
+xbuild/Release/MyVinyl.app/Contents/Resources/DiscogsFile.icns
+xDiscogsFile.icns
+lSLF07#2@21"Copy DiscogsFile.icns396858176#396858176#0(0"0(0#0#70"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/DiscogsFile.icns8659009152#414"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/grayheflin/Documents/Programming/Xcode/myVinyl/DiscogsFile.icns /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources0#
+
+CCpResource build/Release/MyVinyl.app/Contents/Resources/HTML_BG.jpg HTML_BG.jpg
+s396858176.236946
+e396858176.288699
+r1
+xCpResource
+xbuild/Release/MyVinyl.app/Contents/Resources/HTML_BG.jpg
+xHTML_BG.jpg
+lSLF07#2@16"Copy HTML_BG.jpg396858176#396858176#0(0"0(0#0#65"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/HTML_BG.jpg8658332224#409"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/grayheflin/Documents/Programming/Xcode/myVinyl/HTML_BG.jpg /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources0#
+
+CCpResource build/Release/MyVinyl.app/Contents/Resources/blankBlack.gif blankBlack.gif
+s396858176.277986
+e396858176.290965
+r1
+xCpResource
+xbuild/Release/MyVinyl.app/Contents/Resources/blankBlack.gif
+xblankBlack.gif
+lSLF07#2@19"Copy blankBlack.gif396858176#396858176#0(0"0(0#0#68"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/blankBlack.gif8606847840#412"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/grayheflin/Documents/Programming/Xcode/myVinyl/blankBlack.gif /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources0#
+
+CCpResource build/Release/MyVinyl.app/Contents/Resources/blankWhite.gif blankWhite.gif
+s396858176.273796
+e396858176.295779
+r1
+xCpResource
+xbuild/Release/MyVinyl.app/Contents/Resources/blankWhite.gif
+xblankWhite.gif
+lSLF07#2@19"Copy blankWhite.gif396858176#396858176#0(0"0(0#0#68"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/blankWhite.gif8623372896#412"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/grayheflin/Documents/Programming/Xcode/myVinyl/blankWhite.gif /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources0#
+
+CCpResource build/Release/MyVinyl.app/Contents/Resources/dp.pl dp.pl
+s396858176.238567
+e396858176.291243
+r1
+xCpResource
+xbuild/Release/MyVinyl.app/Contents/Resources/dp.pl
+xdp.pl
+lSLF07#2@10"Copy dp.pl396858176#396858176#0(0"0(0#0#59"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/dp.pl8626933504#403"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/grayheflin/Documents/Programming/Xcode/myVinyl/dp.pl /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources0#
+
+CCpResource build/Release/MyVinyl.app/Contents/Resources/dpZIP.pl dpZIP.pl
+s396858181.765753
+e396858181.772297
+r1
+xCpResource
+xbuild/Release/MyVinyl.app/Contents/Resources/dpZIP.pl
+xdpZIP.pl
+lSLF07#2@13"Copy dpZIP.pl396858181#396858181#0(0"0(0#0#62"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/dpZIP.pl8659224512#406"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/grayheflin/Documents/Programming/Xcode/myVinyl/dpZIP.pl /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources0#
+
+CCpResource build/Release/MyVinyl.app/Contents/Resources/myVinylApp.icns myVinylApp.icns
+s396858176.228332
+e396858176.273694
+r1
+xCpResource
+xbuild/Release/MyVinyl.app/Contents/Resources/myVinylApp.icns
+xmyVinylApp.icns
+lSLF07#2@20"Copy myVinylApp.icns396858176#396858176#0(0"0(0#0#69"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/myVinylApp.icns8658614144#413"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/grayheflin/Documents/Programming/Xcode/myVinyl/myVinylApp.icns /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources0#
+
+CCpResource build/Release/MyVinyl.app/Contents/Resources/myvinylBG-blue.png myvinylBG-blue.png
+s396858176.236242
+e396858176.277858
+r1
+xCpResource
+xbuild/Release/MyVinyl.app/Contents/Resources/myvinylBG-blue.png
+xmyvinylBG-blue.png
+lSLF07#2@23"Copy myvinylBG-blue.png396858176#396858176#0(0"0(0#0#72"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/myvinylBG-blue.png8658867264#416"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/grayheflin/Documents/Programming/Xcode/myVinyl/myvinylBG-blue.png /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources0#
+
+CCpResource build/Release/MyVinyl.app/Contents/Resources/myvinylBG.png myvinylBG.png
+s396858176.231441
+e396858176.285366
+r1
+xCpResource
+xbuild/Release/MyVinyl.app/Contents/Resources/myvinylBG.png
+xmyvinylBG.png
+lSLF07#2@18"Copy myvinylBG.png396858176#396858176#0(0"0(0#0#67"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/myvinylBG.png8659287392#411"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/grayheflin/Documents/Programming/Xcode/myVinyl/myvinylBG.png /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources0#
+
+CCpResource build/Release/MyVinyl.app/Contents/Resources/needle.png needle.png
+s396858176.234529
+e396858176.283614
+r1
+xCpResource
+xbuild/Release/MyVinyl.app/Contents/Resources/needle.png
+xneedle.png
+lSLF07#2@15"Copy needle.png396858176#396858176#0(0"0(0#0#64"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/needle.png8658926976#408"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/grayheflin/Documents/Programming/Xcode/myVinyl/needle.png /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources0#
+
+CCpResource build/Release/MyVinyl.app/Contents/Resources/rl.pl rl.pl
+s396858176.239252
+e396858176.285990
+r1
+xCpResource
+xbuild/Release/MyVinyl.app/Contents/Resources/rl.pl
+xrl.pl
+lSLF07#2@10"Copy rl.pl396858176#396858176#0(0"0(0#0#59"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/rl.pl8625010080#403"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/grayheflin/Documents/Programming/Xcode/myVinyl/rl.pl /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources0#
+
+CCpResource build/Release/MyVinyl.app/Contents/Resources/searchLPShave.sh searchLPShave.sh
+s396858181.764515
+e396858181.771005
+r1
+xCpResource
+xbuild/Release/MyVinyl.app/Contents/Resources/searchLPShave.sh
+xsearchLPShave.sh
+lSLF07#2@21"Copy searchLPShave.sh396858181#396858181#0(0"0(0#0#70"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/searchLPShave.sh8659720928#414"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/grayheflin/Documents/Programming/Xcode/myVinyl/searchLPShave.sh /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources0#
+
+CCpResource build/Release/MyVinyl.app/Contents/Resources/searchLPSwant.sh /Users/kristinfellows/Desktop/searchLPSwant.sh
+s314736647.656184
+e314736647.667916
+r1
+xCpResource
+xbuild/Release/MyVinyl.app/Contents/Resources/searchLPSwant.sh
+x/Users/kristinfellows/Desktop/searchLPSwant.sh
+lSLF07#2@51"Copy /Users/kristinfellows/Desktop/searchLPSwant.sh314736647#314736647#0(0"0(0#0#46"/Users/kristinfellows/Desktop/searchLPSwant.sh8603941792#368"    cd /Volumes/Woah/Documents/Programming/Xcode/myVinyl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/kristinfellows/Desktop/searchLPSwant.sh /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources0#
+
+CCpResource build/Release/MyVinyl.app/Contents/Resources/searchLPSwant.sh searchLPSwant.sh
+s396858181.766402
+e396858181.775765
+r1
+xCpResource
+xbuild/Release/MyVinyl.app/Contents/Resources/searchLPSwant.sh
+xsearchLPSwant.sh
+lSLF07#2@21"Copy searchLPSwant.sh396858181#396858181#0(0"0(0#0#70"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/searchLPSwant.sh8658927584#414"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/grayheflin/Documents/Programming/Xcode/myVinyl/searchLPSwant.sh /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources0#
+
+CCreateUniversalBinary /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/MacOS/MyVinyl normal "x86_64 i386 ppc"
+s396858182.647768
+e396858182.650933
+r1
+xCreateUniversalBinary
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/MacOS/MyVinyl
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@95"CreateUniversalBinary build/Release/MyVinyl.app/Contents/MacOS/MyVinyl normal "x86_64 i386 ppc"396858182#396858182#0(0"0(0#0#69"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/x86_64 i386 ppc8623583296#571"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /usr/bin/lipo -create /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/MyVinyl /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/MyVinyl /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/MyVinyl -output /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/MacOS/MyVinyl0#
+
+CCreateUniversalBinary /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/MacOS/MyVinyl normal "x86_64 i386 ppc"
+s314918289.924919
+e314918289.929089
+r1
+xCreateUniversalBinary
+x/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/MacOS/MyVinyl
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@95"CreateUniversalBinary build/Release/MyVinyl.app/Contents/MacOS/MyVinyl normal "x86_64 i386 ppc"314918289#314918289#0(0"0(0#0#65"/Volumes/Woah/Documents/Programming/Xcode/myVinyl/x86_64 i386 ppc8602814688#551"    cd /Volumes/Woah/Documents/Programming/Xcode/myVinyl    /usr/bin/lipo -create /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/MyVinyl /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/MyVinyl /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/MyVinyl -output /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/MacOS/MyVinyl0#
+
+CGenerateDSYMFile /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app.dSYM /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/MacOS/MyVinyl
+s396858182.651028
+e396858182.702999
+r1
+xGenerateDSYMFile
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app.dSYM
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/MacOS/MyVinyl
+lSLF07#2@96"GenerateDSYMFile build/Release/MyVinyl.app.dSYM build/Release/MyVinyl.app/Contents/MacOS/MyVinyl396858182#396858182#0(0"0(0#0#102"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/MacOS/MyVinyl8659638912#284"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /Developer/usr/bin/dsymutil /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/MacOS/MyVinyl -o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app.dSYM0#
+
+CGenerateDSYMFile /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app.dSYM /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/MacOS/MyVinyl
+s314918289.929214
+e314918289.949124
+r1
+xGenerateDSYMFile
+x/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app.dSYM
+x/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/MacOS/MyVinyl
+lSLF07#2@96"GenerateDSYMFile build/Release/MyVinyl.app.dSYM build/Release/MyVinyl.app/Contents/MacOS/MyVinyl314918289#314918289#0(0"0(0#0#98"/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/MacOS/MyVinyl8635754752#272"    cd /Volumes/Woah/Documents/Programming/Xcode/myVinyl    /Developer/usr/bin/dsymutil /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/MacOS/MyVinyl -o /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app.dSYM0#
+
+CLd /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/MyVinyl normal i386
+s396858182.206639
+e396858182.596590
+r1
+xLd
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/MyVinyl
+xnormal
+xi386
+lSLF07#2@128"Link /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/MyVinyl396858182#396858182#0(0"0(0#0#0"8625047200#668"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release -F/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release -filelist /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/MyVinyl.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework AppleScriptKit -o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/MyVinyl0#
+
+CLd /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/MyVinyl normal ppc
+s396858182.621218
+e396858182.647657
+r1
+xLd
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/MyVinyl
+xnormal
+xppc
+lSLF07#2@127"Link /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/MyVinyl396858182#396858182#0(0"0(0#0#0"8624009472#665"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release -F/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release -filelist /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/MyVinyl.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework AppleScriptKit -o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/MyVinyl0#
+
+CLd /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/MyVinyl normal x86_64
+s396858182.208735
+e396858182.598077
+r1
+xLd
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/MyVinyl
+xnormal
+xx86_64
+lSLF07#2@130"Link /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/MyVinyl396858182#396858182#0(0"0(0#0#0"8624501184#674"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release -F/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release -filelist /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/MyVinyl.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework AppleScriptKit -o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/MyVinyl0#
+
+CLd /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/MyVinyl normal i386
+s314918289.671284
+e314918289.862930
+r1
+xLd
+x/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/MyVinyl
+xnormal
+xi386
+lSLF07#2@124"Link /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/MyVinyl314918289#314918289#0(0"0(0#0#0"8693707520#648"    cd /Volumes/Woah/Documents/Programming/Xcode/myVinyl    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release -F/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release -filelist /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/MyVinyl.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework AppleScriptKit -o /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/i386/MyVinyl0#
+
+CLd /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/MyVinyl normal ppc
+s314918289.892379
+e314918289.924779
+r1
+xLd
+x/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/MyVinyl
+xnormal
+xppc
+lSLF07#2@123"Link /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/MyVinyl314918289#314918289#0(0"0(0#0#0"8631850112#645"    cd /Volumes/Woah/Documents/Programming/Xcode/myVinyl    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release -F/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release -filelist /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/MyVinyl.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework AppleScriptKit -o /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/ppc/MyVinyl0#
+
+CLd /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/MyVinyl normal x86_64
+s314918289.682507
+e314918289.862609
+r1
+xLd
+x/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/MyVinyl
+xnormal
+xx86_64
+lSLF07#2@126"Link /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/MyVinyl314918289#314918289#0(0"0(0#0#0"8693081856#654"    cd /Volumes/Woah/Documents/Programming/Xcode/myVinyl    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release -F/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release -filelist /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/MyVinyl.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework AppleScriptKit -o /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/myVinyl.build/Release/MyVinyl.build/Objects-normal/x86_64/MyVinyl0#
+
+COSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/addXMLitem.scpt addXMLitem.applescript
+s396858149.288015
+e396858149.815971
+r1
+xOSACompile
+xbuild/Release/MyVinyl.app/Contents/Resources/Scripts/addXMLitem.scpt
+xaddXMLitem.applescript
+o2013-07-30 02:22:29.390 osacompile[1273:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:
+o	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapper
+oosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.
+lSLF07#2@30"Compile addXMLitem.applescript396858149#396858149#0(545"2013-07-30 02:22:29.390 osacompile[1273:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapperosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.0(0#0#76"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/addXMLitem.applescript8659009408#390"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /usr/bin/osacompile -d -i /System/Library/Frameworks/AppleScriptKit.framework -l AppleScript -U addXMLitem.applescript -x -o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/addXMLitem.scpt /Users/grayheflin/Documents/Programming/Xcode/myVinyl/addXMLitem.applescript0#
+
+COSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/backupDB.scpt backupDB.applescript
+s396858153.021803
+e396858153.503176
+r1
+xOSACompile
+xbuild/Release/MyVinyl.app/Contents/Resources/Scripts/backupDB.scpt
+xbackupDB.applescript
+o2013-07-30 02:22:33.455 osacompile[1281:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:
+o	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapper
+oosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.
+lSLF07#2@28"Compile backupDB.applescript396858153#396858153#0(545"2013-07-30 02:22:33.455 osacompile[1281:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapperosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.0(0#0#74"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/backupDB.applescript8630687488#384"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /usr/bin/osacompile -d -i /System/Library/Frameworks/AppleScriptKit.framework -l AppleScript -U backupDB.applescript -x -o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/backupDB.scpt /Users/grayheflin/Documents/Programming/Xcode/myVinyl/backupDB.applescript0#
+
+COSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/commonFunctions.scpt commonFunctions.applescript
+s396858153.503371
+e396858153.605202
+r1
+xOSACompile
+xbuild/Release/MyVinyl.app/Contents/Resources/Scripts/commonFunctions.scpt
+xcommonFunctions.applescript
+o2013-07-30 02:22:33.557 osacompile[1282:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:
+o	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapper
+oosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.
+lSLF07#2@35"Compile commonFunctions.applescript396858153#396858153#0(545"2013-07-30 02:22:33.557 osacompile[1282:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapperosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.0(0#0#81"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/commonFunctions.applescript8659583872#405"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /usr/bin/osacompile -d -i /System/Library/Frameworks/AppleScriptKit.framework -l AppleScript -U commonFunctions.applescript -x -o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/commonFunctions.scpt /Users/grayheflin/Documents/Programming/Xcode/myVinyl/commonFunctions.applescript0#
+
+COSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/export.scpt export.applescript
+s396858150.305722
+e396858151.704196
+r1
+xOSACompile
+xbuild/Release/MyVinyl.app/Contents/Resources/Scripts/export.scpt
+xexport.applescript
+o2013-07-30 02:22:30.840 osacompile[1277:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:
+o	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapper
+oosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.
+lSLF07#2@26"Compile export.applescript396858150#396858151#0(545"2013-07-30 02:22:30.840 osacompile[1277:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapperosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.0(0#0#72"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/export.applescript8658837504#378"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /usr/bin/osacompile -d -i /System/Library/Frameworks/AppleScriptKit.framework -l AppleScript -U export.applescript -x -o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/export.scpt /Users/grayheflin/Documents/Programming/Xcode/myVinyl/export.applescript0#
+
+COSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/hideColumns.scpt hideColumns.applescript
+s396858147.174819
+e396858147.403466
+r1
+xOSACompile
+xbuild/Release/MyVinyl.app/Contents/Resources/Scripts/hideColumns.scpt
+xhideColumns.applescript
+o2013-07-30 02:22:27.230 osacompile[1271:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:
+o	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapper
+oosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.
+lSLF07#2@31"Compile hideColumns.applescript396858147#396858147#0(545"2013-07-30 02:22:27.230 osacompile[1271:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapperosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.0(0#0#77"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/hideColumns.applescript8659069056#393"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /usr/bin/osacompile -d -i /System/Library/Frameworks/AppleScriptKit.framework -l AppleScript -U hideColumns.applescript -x -o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/hideColumns.scpt /Users/grayheflin/Documents/Programming/Xcode/myVinyl/hideColumns.applescript0#
+
+COSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/myVinyl.scpt myVinyl.applescript
+s396858136.074046
+e396858171.690521
+r1
+xOSACompile
+xbuild/Release/MyVinyl.app/Contents/Resources/Scripts/myVinyl.scpt
+xmyVinyl.applescript
+o2013-07-30 02:22:22.838 osacompile[1269:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:
+o	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapper
+oosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.
+lSLF07#2@27"Compile myVinyl.applescript396858136#396858171#0(545"2013-07-30 02:22:22.838 osacompile[1269:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapperosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.0(0#0#73"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/myVinyl.applescript8631307808#381"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /usr/bin/osacompile -d -i /System/Library/Frameworks/AppleScriptKit.framework -l AppleScript -U myVinyl.applescript -x -o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/myVinyl.scpt /Users/grayheflin/Documents/Programming/Xcode/myVinyl/myVinyl.applescript0#
+
+COSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/playlist.scpt playlist.applescript
+s396858150.141939
+e396858150.305608
+r1
+xOSACompile
+xbuild/Release/MyVinyl.app/Contents/Resources/Scripts/playlist.scpt
+xplaylist.applescript
+o2013-07-30 02:22:30.198 osacompile[1275:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:
+o	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapper
+oosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.
+lSLF07#2@28"Compile playlist.applescript396858150#396858150#0(545"2013-07-30 02:22:30.198 osacompile[1275:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapperosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.0(0#0#74"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/playlist.applescript8659725920#384"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /usr/bin/osacompile -d -i /System/Library/Frameworks/AppleScriptKit.framework -l AppleScript -U playlist.applescript -x -o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/playlist.scpt /Users/grayheflin/Documents/Programming/Xcode/myVinyl/playlist.applescript0#
+
+COSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/register.scpt register.applescript
+s396858153.605302
+e396858154.046701
+r1
+xOSACompile
+xbuild/Release/MyVinyl.app/Contents/Resources/Scripts/register.scpt
+xregister.applescript
+o2013-07-30 02:22:33.943 osacompile[1283:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:
+o	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapper
+oosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.
+lSLF07#2@28"Compile register.applescript396858153#396858154#0(545"2013-07-30 02:22:33.943 osacompile[1283:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapperosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.0(0#0#74"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/register.applescript8659288544#384"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /usr/bin/osacompile -d -i /System/Library/Frameworks/AppleScriptKit.framework -l AppleScript -U register.applescript -x -o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/register.scpt /Users/grayheflin/Documents/Programming/Xcode/myVinyl/register.applescript0#
+
+COSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/searchWindow.scpt searchWindow.applescript
+s396858136.074828
+e396858147.174626
+r1
+xOSACompile
+xbuild/Release/MyVinyl.app/Contents/Resources/Scripts/searchWindow.scpt
+xsearchWindow.applescript
+o2013-07-30 02:22:22.841 osacompile[1270:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:
+o	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapper
+oosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.
+lSLF07#2@32"Compile searchWindow.applescript396858136#396858147#0(545"2013-07-30 02:22:22.841 osacompile[1270:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapperosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.0(0#0#78"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/searchWindow.applescript8623916256#396"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /usr/bin/osacompile -d -i /System/Library/Frameworks/AppleScriptKit.framework -l AppleScript -U searchWindow.applescript -x -o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/searchWindow.scpt /Users/grayheflin/Documents/Programming/Xcode/myVinyl/searchWindow.applescript0#
+
+COSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/searchXML.scpt searchXML.applescript
+s396858149.816072
+e396858150.141831
+r1
+xOSACompile
+xbuild/Release/MyVinyl.app/Contents/Resources/Scripts/searchXML.scpt
+xsearchXML.applescript
+o2013-07-30 02:22:29.877 osacompile[1274:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:
+o	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapper
+oosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.
+lSLF07#2@29"Compile searchXML.applescript396858149#396858150#0(545"2013-07-30 02:22:29.877 osacompile[1274:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapperosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.0(0#0#75"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/searchXML.applescript8658820736#387"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /usr/bin/osacompile -d -i /System/Library/Frameworks/AppleScriptKit.framework -l AppleScript -U searchXML.applescript -x -o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/searchXML.scpt /Users/grayheflin/Documents/Programming/Xcode/myVinyl/searchXML.applescript0#
+
+COSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/updateApp.scpt updateApp.applescript
+s396858151.704435
+e396858153.021687
+r1
+xOSACompile
+xbuild/Release/MyVinyl.app/Contents/Resources/Scripts/updateApp.scpt
+xupdateApp.applescript
+o2013-07-30 02:22:32.963 osacompile[1280:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:
+o	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapper
+oosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.
+lSLF07#2@29"Compile updateApp.applescript396858151#396858153#0(545"2013-07-30 02:22:32.963 osacompile[1280:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapperosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.0(0#0#75"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/updateApp.applescript8658291264#387"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /usr/bin/osacompile -d -i /System/Library/Frameworks/AppleScriptKit.framework -l AppleScript -U updateApp.applescript -x -o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/updateApp.scpt /Users/grayheflin/Documents/Programming/Xcode/myVinyl/updateApp.applescript0#
+
+COSACompile build/Release/MyVinyl.app/Contents/Resources/Scripts/upgradeDB.scpt upgradeDB.applescript
+s396858147.403596
+e396858149.287817
+r1
+xOSACompile
+xbuild/Release/MyVinyl.app/Contents/Resources/Scripts/upgradeDB.scpt
+xupgradeDB.applescript
+o2013-07-30 02:22:28.937 osacompile[1272:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:
+o	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapper
+oosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.
+lSLF07#2@29"Compile upgradeDB.applescript396858147#396858149#0(545"2013-07-30 02:22:28.937 osacompile[1272:607] Error loading /Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types:  dlopen(/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types, 262): no suitable image found.  Did find:	/Library/ScriptingAdditions/Adobe Unit Types.osax/Contents/MacOS/Adobe Unit Types: no matching architecture in universal wrapperosacompile: OpenScripting.framework - scripting addition "/Library/ScriptingAdditions/Adobe Unit Types.osax" declares no loadable handlers.0(0#0#75"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/upgradeDB.applescript8659707104#387"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /usr/bin/osacompile -d -i /System/Library/Frameworks/AppleScriptKit.framework -l AppleScript -U upgradeDB.applescript -x -o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Scripts/upgradeDB.scpt /Users/grayheflin/Documents/Programming/Xcode/myVinyl/upgradeDB.applescript0#
+
+CProcessInfoPlistFile /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Info.plist Info.plist
+s396858135.776310
+e396858136.073955
+r1
+xProcessInfoPlistFile
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist396858135#396858136#0(0"0(0#0#64"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/Info.plist8658375072#366"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    builtin-infoPlistUtility Info.plist -genpkginfo /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/PkgInfo -expandbuildsettings -format binary -platform macosx -o /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Info.plist0#
+
+CProcessInfoPlistFile /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Info.plist Info.plist
+s314918287.358310
+e314918287.416361
+r1
+xProcessInfoPlistFile
+x/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist314918287#314918287#0(0"0(0#0#60"/Volumes/Woah/Documents/Programming/Xcode/myVinyl/Info.plist8692031392#354"    cd /Volumes/Woah/Documents/Programming/Xcode/myVinyl    builtin-infoPlistUtility Info.plist -genpkginfo /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/PkgInfo -expandbuildsettings -format binary -platform macosx -o /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Info.plist0#
+
+CStripNIB /Users/grayheflin/Documents/Programming/Xcode/myVinyl/English.lproj/MainMenu.nib
+s396858171.690666
+e396858174.254073
+r1
+xStripNIB
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/English.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB English.lproj/MainMenu.nib396858171#396858174#0(0"0(0#0#80"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/English.lproj/MainMenu.nib8625512512#342"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /Developer/usr/bin/ibtool --strip /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Users/grayheflin/Documents/Programming/Xcode/myVinyl/English.lproj/MainMenu.nib0#
+
+CStripNIB /Users/grayheflin/Documents/Programming/Xcode/myVinyl/German.lproj/MainMenu.nib
+s396858174.248734
+e396858175.056370
+r1
+xStripNIB
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/German.lproj/MainMenu.nib
+lSLF07#2@34"StripNIB German.lproj/MainMenu.nib396858174#396858175#0(0"0(0#0#79"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/German.lproj/MainMenu.nib8659407552#340"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /Developer/usr/bin/ibtool --strip /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/German.lproj/MainMenu.nib --output-format human-readable-text /Users/grayheflin/Documents/Programming/Xcode/myVinyl/German.lproj/MainMenu.nib0#
+
+CStripNIB /Users/grayheflin/Documents/Programming/Xcode/myVinyl/Italian.lproj/MainMenu.nib
+s396858174.254164
+e396858175.058541
+r1
+xStripNIB
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/Italian.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB Italian.lproj/MainMenu.nib396858174#396858175#0(0"0(0#0#80"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/Italian.lproj/MainMenu.nib8659068800#342"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /Developer/usr/bin/ibtool --strip /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Italian.lproj/MainMenu.nib --output-format human-readable-text /Users/grayheflin/Documents/Programming/Xcode/myVinyl/Italian.lproj/MainMenu.nib0#
+
+CStripNIB /Users/grayheflin/Documents/Programming/Xcode/myVinyl/Polish.lproj/MainMenu.nib
+s396858175.056472
+e396858176.228091
+r1
+xStripNIB
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/Polish.lproj/MainMenu.nib
+lSLF07#2@34"StripNIB Polish.lproj/MainMenu.nib396858175#396858176#0(0"0(0#0#79"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/Polish.lproj/MainMenu.nib8613328640#340"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /Developer/usr/bin/ibtool --strip /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Polish.lproj/MainMenu.nib --output-format human-readable-text /Users/grayheflin/Documents/Programming/Xcode/myVinyl/Polish.lproj/MainMenu.nib0#
+
+CStripNIB /Users/grayheflin/Documents/Programming/Xcode/myVinyl/Turkish.lproj/MainMenu.nib
+s396858171.697942
+e396858174.248504
+r1
+xStripNIB
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/Turkish.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB Turkish.lproj/MainMenu.nib396858171#396858174#0(0"0(0#0#80"/Users/grayheflin/Documents/Programming/Xcode/myVinyl/Turkish.lproj/MainMenu.nib8625150304#342"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /Developer/usr/bin/ibtool --strip /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Turkish.lproj/MainMenu.nib --output-format human-readable-text /Users/grayheflin/Documents/Programming/Xcode/myVinyl/Turkish.lproj/MainMenu.nib0#
+
+CStripNIB /Volumes/Woah/Documents/Programming/Xcode/myVinyl/English.lproj/MainMenu.nib
+s314918289.105712
+e314918289.256815
+r1
+xStripNIB
+x/Volumes/Woah/Documents/Programming/Xcode/myVinyl/English.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB English.lproj/MainMenu.nib314918289#314918289#0(0"0(0#0#76"/Volumes/Woah/Documents/Programming/Xcode/myVinyl/English.lproj/MainMenu.nib8695471072#330"    cd /Volumes/Woah/Documents/Programming/Xcode/myVinyl    /Developer/usr/bin/ibtool --strip /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Volumes/Woah/Documents/Programming/Xcode/myVinyl/English.lproj/MainMenu.nib0#
+
+CStripNIB /Volumes/Woah/Documents/Programming/Xcode/myVinyl/German.lproj/MainMenu.nib
+s314918289.256923
+e314918289.411426
+r1
+xStripNIB
+x/Volumes/Woah/Documents/Programming/Xcode/myVinyl/German.lproj/MainMenu.nib
+lSLF07#2@34"StripNIB German.lproj/MainMenu.nib314918289#314918289#0(0"0(0#0#75"/Volumes/Woah/Documents/Programming/Xcode/myVinyl/German.lproj/MainMenu.nib8694696192#328"    cd /Volumes/Woah/Documents/Programming/Xcode/myVinyl    /Developer/usr/bin/ibtool --strip /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/German.lproj/MainMenu.nib --output-format human-readable-text /Volumes/Woah/Documents/Programming/Xcode/myVinyl/German.lproj/MainMenu.nib0#
+
+CStripNIB /Volumes/Woah/Documents/Programming/Xcode/myVinyl/Italian.lproj/MainMenu.nib
+s314918289.265539
+e314918289.417549
+r1
+xStripNIB
+x/Volumes/Woah/Documents/Programming/Xcode/myVinyl/Italian.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB Italian.lproj/MainMenu.nib314918289#314918289#0(0"0(0#0#76"/Volumes/Woah/Documents/Programming/Xcode/myVinyl/Italian.lproj/MainMenu.nib8694356352#330"    cd /Volumes/Woah/Documents/Programming/Xcode/myVinyl    /Developer/usr/bin/ibtool --strip /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Italian.lproj/MainMenu.nib --output-format human-readable-text /Volumes/Woah/Documents/Programming/Xcode/myVinyl/Italian.lproj/MainMenu.nib0#
+
+CStripNIB /Volumes/Woah/Documents/Programming/Xcode/myVinyl/Turkish.lproj/MainMenu.nib
+s314918289.106718
+e314918289.265416
+r1
+xStripNIB
+x/Volumes/Woah/Documents/Programming/Xcode/myVinyl/Turkish.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB Turkish.lproj/MainMenu.nib314918289#314918289#0(0"0(0#0#76"/Volumes/Woah/Documents/Programming/Xcode/myVinyl/Turkish.lproj/MainMenu.nib8695216000#330"    cd /Volumes/Woah/Documents/Programming/Xcode/myVinyl    /Developer/usr/bin/ibtool --strip /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app/Contents/Resources/Turkish.lproj/MainMenu.nib --output-format human-readable-text /Volumes/Woah/Documents/Programming/Xcode/myVinyl/Turkish.lproj/MainMenu.nib0#
+
+CTouch /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app
+s396858182.703101
+e396858182.707954
+r1
+xTouch
+x/Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app
+lSLF07#2@85"Touch /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app396858182#396858182#0(0"0(0#0#0"8623058752#163"    cd /Users/grayheflin/Documents/Programming/Xcode/myVinyl    /usr/bin/touch -c /Users/grayheflin/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app0#
+
+CTouch /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app
+s314918289.949226
+e314918289.972046
+r1
+xTouch
+x/Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app
+lSLF07#2@81"Touch /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app314918289#314918289#0(0"0(0#0#0"8695004992#155"    cd /Volumes/Woah/Documents/Programming/Xcode/myVinyl    /usr/bin/touch -c /Volumes/Woah/Documents/Programming/Xcode/myVinyl/build/Release/MyVinyl.app0#
+

@@ -1,0 +1,107 @@
+/* Dialogs */
+"dialog_Welcome" = "Welcome to MyVinyl";
+
+"dialog_InternetDown" = "Please connect your computer to the internet.";
+"dialog_OnlyOneImport" = "Only one list can be imported at a time.";
+"dialog_LeifertinDown" = "Leifertin.info isn't responding.";
+"dialog_ReleaseDeleted" = "Error: This release has been deleted.";
+"dialog_ItemNotFound" = "Item not found.";
+
+"dialog_NonDiscogsBuySell" = "Only items with \"Discogs Release IDs\" can be bought/sold through Discogs.";
+"dialog_OnlyDiscogsUpdate" = "Only items with \"Discogs Release IDs\" can be updated.";
+
+"dialog_FinishedSync" = "Finished Applying Changes!\nDo you want to clear the \"Recent Activity\" List?";
+"dialog_DiscogsSyncSafari" = "Until there is a better way, you must log in to your Discogs account with Safari to continue this process. Have you done that?";
+"dialog_NothingToSync" = "Nothing to Sync.";
+
+"dialog_UnknownFile" = "Unknown file type.";
+"dialog_ImpossibleRange" = "Impossible Range.";
+"dialog_StartAtOne" = "You need to start at #1 if you have no albums.";
+"dialog_QuitAfterImport" = "It would be ideal, but not necessary, to quit and relaunch MyVinyl to clear the memory.";
+
+"dialog_FinishedBackup" = "Finished creating backup!";
+"dialog_QuitAfterBackup" = "You need to quit and re-open MyVinyl for the loaded backup to display correctly.";
+
+"dialog_DownloadingDesktop" = "Downloading to the Desktop...";
+"dialog_DownloadingRemaining" = "50% more to go.";
+
+"dialog_OnlyJPEG" = "Currently, only JPEGs are supported.";
+"dialog_NoAlbum" = "No album selected!";
+
+"dialog_updateDBReq" = "Your database needs to be updated.";
+
+"dialog_errorNoXLSBin" = "Export failed.\nYou need to install the XLS Binary export modules.";
+"dialog_FinishedExportingHTML" = "Finished exporting to HTML!";
+"dialog_FinishedExportingXLS" = "Finished exporting to XLS!";
+
+"dialog_RemoveTrack" = "Are you sure you want to remove \"chosenTrack\" from the track list?";
+"dialog_RemoveHave" = "Are you sure you no longer have \"thisAlbum\"?";
+"dialog_RemoveWant" = "Are you sure you no longer want \"thisAlbum\"?";
+
+"contains_NoLongerWant" = "Are you sure you no longer want ";
+"contains_NoLongerHave" = "Are you sure you no longer have ";
+"endsWith_FromTrackList" = " from the track list?";
+
+
+/*Dialog Headers*/
+"dialogHeader_Error" = "Error:";
+"dialogHeader_Warning" = "Warning:";
+"dialogHeader_FYI" = "Just so you know:";
+
+
+/* Buttons */
+"button_Oh" = "Oh";
+"button_Yay" = "Yay!";
+"button_Quit" = "Quit";
+"button_Yes" = "Yes";
+"button_Hey" = "Hey";
+"button_Close" = "Close";
+"button_Cancel" = "Cancel";
+"button_ClearRecent" = "Clear List";
+"button_IWantThis" = "I want this!";
+"button_IHaveThis" = "I have this!";
+
+/* Menus */
+"menu_BuyFrom" = "Buy From...";
+"menu_SellOn" = "Sell On...";
+"menu_SubmitDiscogs" = "Submit to Discogs...";
+"menu_EditDiscogs" = "Edit on Discogs...";
+"menu_ViewSerialNumber" = "View Serial Number";
+"menu_EnterSerialNumber" = "Enter Serial Number";
+
+/* Hover Text */
+"hover_UpdateItem" = "Update Item";
+"hover_EditNotes" = "Edit Notes";
+"hover_DeleteItem" = "Delete Item";
+"hover_AddItem" = "Add Item";
+"hover_ToggleArt" = "Toggle Focus";
+"hover_ToggleTracks" = "Toggle Track List";
+
+/* Misc */
+"misc_HaveTotal" = "I have 500 albums.";
+"misc_HaveWord" = "have";
+"misc_WantTotal" = "I want 500 albums.";
+"misc_WantWord" = "want";
+"misc_RememberHave" = "remembering the albums I have";
+"misc_RememberWant" = "remembering the albums I want";
+"misc_Loading" = "loading";
+"misc_TimeRemaining" = "time remaining: 0.4 minutes";
+"misc_OneItem" = "1 item";
+"misc_MoreItems" = "0 items";
+"misc_ZeroItems" = "0 items";
+"misc_partOfWhole" = "1/2";
+"misc_NothingSelected" = "Nothing Selected";
+"misc_ViewOnDiscogs" = "View on Discogs";
+
+/* Album Information */
+"album_Artist" = "Artist";
+"album_Title" = "Title";
+"album_Label" = "Label";
+"album_Country" = "Country";
+"album_Catalog" = "Catalog";
+"album_Date" = "Date";
+"album_Format" = "Format";
+"album_Credits" = "Credits";
+"album_Notes" = "Notes";
+"album_TrackList" = "Track List";
+

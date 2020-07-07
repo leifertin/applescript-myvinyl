@@ -1,0 +1,106 @@
+/* Dialogs */
+"dialog_Welcome" = "Benvenuto in MyVinyl";
+
+"dialog_InternetDown" = "Connetti il computer a internet.";
+"dialog_OnlyOneImport" = "Può essere importata solo una lista per volta.";
+"dialog_LeifertinDown" = "Leifertin.info non risponde.";
+"dialog_ReleaseDeleted" = "Errore: Questa versione è stata eliminata.";
+"dialog_ItemNotFound" = "Oggetto non trovato.";
+
+"dialog_NonDiscogsBuySell" = "Solo oggetti con il campo \"Discogs Release IDs\" possono essere acquistati/venduti attraverso Discogs.";
+"dialog_OnlyDiscogsUpdate" = "Solo oggetti con il campo \"Discogs Release IDs\" possono essere aggiornati.";
+
+"dialog_FinishedSync" = "Terminata sincronizzazione!\nVuoi pulire la lista delle \"Attività recenti\"?";
+"dialog_DiscogsSyncSafari" = "In attesa di un metodo migliore, devi eseguire il login con il tuo account Discogs da Safari per continuare questo processo. Hai già fatto?";
+"dialog_NothingToSync" = "Nessun oggetto da sincronizzare.";
+
+"dialog_UnknownFile" = "Tipo di file sconosciuto.";
+"dialog_ImpossibleRange" = "Campo impossibile.";
+"dialog_StartAtOne" = "E' necessario inserire almeno l'album numero 1.";
+"dialog_QuitAfterImport" = "E' consigliato, ma non necessario, uscire e riaprire MyVinyl per pulire la memoria.";
+
+"dialog_FinishedBackup" = "Copia di backup terminata!";
+"dialog_QuitAfterBackup" = "E' necessario chiudere e riaprire MyVinyl per visualizzare correttamente la copia di backup caricata.";
+
+"dialog_DownloadingDesktop" = "Sto scaricando sulla Scrivania…";
+"dialog_DownloadingRemaining" = "50% alla fine.";
+
+"dialog_OnlyJPEG" = "Attualmente sono supportati solo JPEGs.";
+"dialog_NoAlbum" = "Nessun album selezionato!";
+
+"dialog_updateDBReq" = "Il tuo database deve essere aggiornato.";
+
+"dialog_errorNoXLSBin" = "Esportazione fallita.\nDevi installare il modulo per esportare in formato XLS Binary.";
+"dialog_FinishedExportingHTML" = "Terminata esportazione in HTML!";
+"dialog_FinishedExportingXLS" = "Terminata esportazione in XLS!";
+
+"dialog_RemoveTrack" = "Sei sicuro di voler rimuovere \"chosenTrack\" dalla lista dei brani?";
+"dialog_RemoveHave" = "Sei sicuro di voler rimuovere \"thisAlbum\"?";
+"dialog_RemoveWant" = "Sei sicuro di non volere più cercare \"thisAlbum\"?";
+
+"contains_NoLongerHave" = "Sei sicuro di voler rimuovere ";
+"contains_NoLongerWant" = "Sei sicuro di non volere più ";
+"endsWith_FromTrackList" = " dalla lista dei brani?";
+
+
+/*Dialog Headers*/
+"dialogHeader_Error" = "Errore";
+"dialogHeader_Warning" = "Attenzione";
+"dialogHeader_FYI" = "E' tutto quello che sai";
+
+
+/* Buttons */
+"button_Oh" = "Oh";
+"button_Yay" = "Evviva!";
+"button_Quit" = "Esci";
+"button_Yes" = "Si";
+"button_Hey" = "Ehi";
+"button_Close" = "Chiudi";
+"button_Cancel" = "Cancella";
+"button_ClearRecent" = "Pulisci lista";
+"button_IWantThis" = "Lo voglio!";
+"button_IHaveThis" = "Ce l'ho!";
+
+/* Menus */
+"menu_BuyFrom" = "Acquistato da...";
+"menu_SellOn" = "Venduto su...";
+"menu_SubmitDiscogs" = "Invia a Discogs...";
+"menu_EditDiscogs" = "Modifica su Discogs...";
+"menu_ViewSerialNumber" = "Visualizza Numero di Serie";
+"menu_EnterSerialNumber" = "Inserisci Numero di Serie";
+
+/* Hover Text */
+"hover_UpdateItem" = "Aggiorna oggetto";
+"hover_EditNotes" = "Modifica note";
+"hover_DeleteItem" = "Cancella oggetto";
+"hover_AddItem" = "Aggiungi oggetto";
+"hover_ToggleArt" = "Mostra copertina";
+"hover_ToggleTracks" = "Mostra lista brani";
+
+/* Misc */
+"misc_HaveTotal" = "Ho 500 albums.";
+"misc_HaveWord" = "ce l'ho";
+"misc_WantTotal" = "Voglio 500 albums.";
+"misc_WantWord" = "lo voglio";
+"misc_RememberHave" = "ricordati gli album che ho";
+"misc_RememberWant" = "ricordati gli album che voglio";
+"misc_Loading" = "caricamento";
+"misc_TimeRemaining" = "tempo rimanente: 0.4 minuti";
+"misc_OneItem" = "1 oggetto";
+"misc_MoreItems" = "0 oggetti";
+"misc_ZeroItems" = "0 oggetti";
+"misc_partOfWhole" = "1/2";
+"misc_NothingSelected" = "Nessuna selezione";
+"misc_ViewOnDiscogs" = "Visualizza su Discogs";
+
+/* Album Information */
+"album_Artist" = "Artista";
+"album_Title" = "Titolo";
+"album_Label" = "Etichetta";
+"album_Country" = "Paese";
+"album_Catalog" = "Catalogo";
+"album_Date" = "Data";
+"album_Format" = "Formato";
+"album_Credits" = "Crediti";
+"album_Notes" = "Note";
+"album_TrackList" = "Lista brani";
